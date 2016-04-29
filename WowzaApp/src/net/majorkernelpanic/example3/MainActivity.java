@@ -141,7 +141,7 @@ OnCheckedChangeListener {
 		
 		mSession.setPreviewOrientation(getRotation());
 		
-	    mSession.configure();
+	    	mSession.configure();
 	    
 	    //mSession.getVideoTrack().setStreamingMethod(MediaStream.MODE_MEDIACODEC_API_2);
 	}
@@ -178,7 +178,7 @@ OnCheckedChangeListener {
 		super.onConfigurationChanged(newConfig);
 		
 		mSession.setPreviewOrientation(getRotation());
-	    mSession.configure();
+	    	mSession.configure();
 	}
 	
 	@Override
